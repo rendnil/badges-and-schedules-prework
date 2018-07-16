@@ -38,4 +38,4 @@ def assign_rooms(array)
 
 end
 
-assign_room(array)
+assign_rooms(array)
