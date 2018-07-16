@@ -1,6 +1,6 @@
 # Write your code here.
 
-##array = ["a", "b", "c", "d"]
+
 
 def badge_maker(name)
   
@@ -55,6 +55,4 @@ def printer(array)
   
 end  
 
-##assign_rooms(array)
 
-##printer(array)
