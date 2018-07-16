@@ -1,5 +1,6 @@
 # Write your code here.
 
+array = ["a", "b", "c", "d"]
 
 def badge_maker(name)
   
@@ -28,7 +29,7 @@ def assign_rooms(array)
   
     array.each_with_index do |item, index|
       room_assignment_array.push("Hello, #{name}! You'll be assigned to room #{index +1}!")
-    
+      puts room_assignment_array
     end
 
   room_assignment_array
@@ -36,3 +37,5 @@ def assign_rooms(array)
 
 
 end
+
+assign_room(array)
