@@ -26,12 +26,12 @@ def assign_rooms(array)
   room_assignment_array = [ ]
   
   
-    array.each do |name|
-      room_assignment_array
+    array.each_with_index do |item, index|
+      room_assignment_array.push("Hello, #{name}! You'll be assigned to room #{index +1}!")
     
     end
 
-
+  room_assignment_array
 
 
 
