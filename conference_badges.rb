@@ -19,3 +19,20 @@ def batch_badge_creator(array)
   badge_message_array
 
 end      
+
+
+def assign_rooms(array)
+
+  room_assignment_array = [ ]
+  
+  
+    array.each do |name|
+      room_assignment_array
+    
+    end
+
+
+
+
+
+end
