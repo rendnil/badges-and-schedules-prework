@@ -13,7 +13,7 @@ def batch_badge_creator(array)
 
 
     array.each do |name|
-      badge_message.array.push(badge_maker(name))
+      badge_message_array.array.push(badge_maker(name))
   
     end
   badge_message_array
