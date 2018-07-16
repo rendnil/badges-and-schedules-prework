@@ -29,7 +29,7 @@ def assign_rooms(array)
   
     array.each_with_index do |item, index|
       room_assignment_array.push("Hello, #{item}! You'll be assigned to room #{index +1}!")
-      puts room_assignment_array
+      ##puts room_assignment_array
     end
 
   room_assignment_array
